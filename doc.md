@@ -1,10 +1,4 @@
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+The basic design used here was first presented for use with the SMA20 series decoders - SMA20 Low Cost 17 Channel DCC Decoders Ver 6.01 with Sound,Triggered Sound,Stepper,Dual Motor,LED and Servo Control   https://model-railroad-hobbyist.com/node/24316  as an integral part of the decoder hardware. It was also used as the hardware platform for the IDEC library described here: SMA35 Interactive DCC Decoders IDEC The Next Generation - Sequencing Movement Sound & Lighting v1.08  https://model-railroad-hobbyist.com/node/40940   Here it has been separated for use as a stand-alone board, power by 5 Volts DC, usually from the accompanying processor board, like an Arduino. Header pins can be applied with 0.1 inch spacing for the DCC inout connection and for the connection to your porcessor/Arduino in DCC-Signal, +5 Volt Power In, and Ground (GND) connection just like a servo or sensor would be wired. This has been tried with several boards like the Arduino Uno, Pro Mini, Mega2560, Nano, Micro, Pro Micro, Leonardo, ATTiny167, Tinyzero, Teensy3.x and Teensy4.x series.
+entire text of the article is at https://model-railroad-hobbyist.com/node/41187
+This design was reworked slightly to conform to my EAGLE Design Rule set and for compatibility with the Panelizer I use.  The original baord design is referenced in
+Geoff's article, this design is panelized into a 12 board panel and offered on the Model Railroad Control Systems website.
