@@ -1,11 +1,12 @@
-First line: A short description of the project, used as a subtitle ot tagline
+Panelized version of basic DCC Front end, in this case from Geoff Bunza as SMA-37
 
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
+The basic design used here was first presented for use with the SMA20 series decoders - SMA20 Low Cost 17 Channel DCC Decoders Ver 6.01 with Sound,
+Triggered Sound,Stepper,Dual Motor,LED and Servo Control   https://model-railroad-hobbyist.com/node/24316  as an integral part of the decoder hardware. 
+It was also used as the hardware platform for the IDEC library described here: SMA35 Interactive DCC Decoders IDEC The Next Generation - Sequencing 
+Movement Sound & Lighting v1.08  https://model-railroad-hobbyist.com/node/40940   Here it has been separated for use as a stand-alone board, power 
+by 5 Volts DC, usually from the accompanying processor board, like an Arduino. Header pins can be applied with 0.1 inch spacing for the DCC inout 
+connection and for the connection to your porcessor/Arduino in DCC-Signal, +5 Volt Power In, and Ground (GND) connection just like a servo or sensor 
+would be wired. This has been tried with several boards like the Arduino Uno, Pro Mini, Mega2560, Nano, Micro, Pro Micro, Leonardo, ATTiny167, 
+Tinyzero, Teensy3.x and Teensy4.x series.
 
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
+Similar circuits have been published elsewhere.  My intent is to provide an affordable substrate for those wishing to build stationary DCC Decoders.
