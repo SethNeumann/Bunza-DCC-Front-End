@@ -62,7 +62,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -76,6 +76,19 @@ Decoder_FrontEnd</text>
 <text x="20.828" y="1.524" size="1.016" layer="25" font="vector">GND</text>
 <text x="26.924" y="10.668" size="0.635" layer="25" font="vector" rot="R90">G_Bunza 2020
 Decoder_FrontEnd</text>
+<text x="24.257" y="3.937" size="1.27" layer="125" font="vector" ratio="10">.</text>
+<text x="24.257" y="6.477" size="1.27" layer="125" font="vector" ratio="10">..</text>
+<text x="5.08" y="13.87" size="0.4" layer="125" font="vector">C1</text>
+<text x="7.366" y="2.413" size="1.27" layer="125" font="vector" ratio="10" rot="R180">C2</text>
+<text x="14.732" y="5.688" size="0.4" layer="125" font="vector" rot="R180">C3</text>
+<text x="4.064" y="11.43" size="1.27" layer="125" font="vector" ratio="10">D1</text>
+<text x="24.257" y="9.017" size="1.27" layer="125" font="vector" ratio="10">DCC</text>
+<text x="1.397" y="17.907" size="1.27" layer="125" font="vector" ratio="10">DCC1</text>
+<text x="1.397" y="15.367" size="1.27" layer="125" font="vector" ratio="10">DCC2</text>
+<text x="15.367" y="18.542" size="1.27" layer="125" font="vector" ratio="10">OK1</text>
+<text x="5.588" y="16.7894" size="0.9906" layer="125" font="vector" ratio="10">R1</text>
+<text x="11.938" y="3.8354" size="0.9906" layer="125" font="vector" ratio="10">R2</text>
+<text x="16.764" y="6.1214" size="0.9906" layer="125" font="vector" ratio="10">R3</text>
 <text x="24.257" y="3.937" size="1.27" layer="125" font="vector" ratio="10">.</text>
 <text x="24.257" y="6.477" size="1.27" layer="125" font="vector" ratio="10">..</text>
 <text x="5.08" y="13.87" size="0.4" layer="125" font="vector">C1</text>
